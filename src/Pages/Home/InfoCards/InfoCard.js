@@ -4,7 +4,7 @@ const InfoCard = ({ card }) => {
     console.log(card)
     const { name, description, icon, bgClass } = card;
 	return (
-		<div className={`card card-side p-5 shadow-xl text-white ${bgClass}`}>
+		<div className={`card card-side py-7 shadow-xl text-white ${bgClass}`}>
 			<div className="p-6">
 				<img
 					src={icon}

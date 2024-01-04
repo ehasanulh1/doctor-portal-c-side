@@ -5,11 +5,11 @@ module.exports = {
 		themes: [
 			{
 				doctortheme: {
-					primary: "#5680E9",
+					primary: "#0FCFEC",
 
-					secondary: "#84CEEB",
+					secondary: "#19D3AE",
 
-					accent: "#5AB9EA",
+					accent: "#3A4256",
 
 					neutral: "#ffffff",
 
