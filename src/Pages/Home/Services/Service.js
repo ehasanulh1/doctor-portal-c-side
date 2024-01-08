@@ -1,21 +1,20 @@
 import React from "react";
 
-const Service = () => {
+const Service = ({service}) => {
+	const { name, description, image } = service;
+	console.log(image)
 	return (
-		<div className="card w-96 bg-base-100 shadow-xl">
-			<figure className="px-10 pt-10">
+		<div className="card bg-base-100 shadow-xl">
+			<figure className="pt-8">
 				<img
-					src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+					src={image}
 					alt="Shoes"
-					className="rounded-xl"
+					className=""
 				/>
 			</figure>
-			<div className="card-body items-center text-center">
-				<h2 className="card-title">Shoes!</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
-				<div className="card-actions">
-					<button className="btn btn-primary">Buy Now</button>
-				</div>
+			<div className="card-body items-center text-center px-6">
+				<h2 className="card-title">{name}</h2>
+				<p>{description}</p>
 			</div>
 		</div>
 	);

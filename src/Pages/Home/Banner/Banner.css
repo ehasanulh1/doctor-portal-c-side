@@ -1,0 +1,14 @@
+.bg-image {
+    Background-image: url('../../../assets/images/landing-bg.png');
+    Background-size: cover;
+    Background-position: center center;
+    Height: 700px;
+    Position: relative;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bg-image {
+    /* Background-image: none; */
+    height: 100%;  
+  }
+}
