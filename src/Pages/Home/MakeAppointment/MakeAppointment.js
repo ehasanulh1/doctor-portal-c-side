@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../../../assets/images/doctor-small.png";
 import image2 from "../../../assets/images/appointment.png";
+import MainButton from "../../Shared/Button/MainButton";
 
 const MakeAppointment = () => {
 	return (
@@ -10,12 +11,12 @@ const MakeAppointment = () => {
 				background: `url(${image2})`,
 			}}
 		>
-			<div className="hero p-5">
+			<div className="hero px-5">
 				<div className="hero-content flex-col lg:flex-row p-0">
 					<img
 						src={image}
 						alt="treatment"
-						className="hidden md:block lg:w-1/2 -mt-24"
+						className="hidden lg:block lg:w-1/2 -mt-24"
 					/>
 					<div className="">
 						<h4 className="text-xl font-bold text-secondary mb-5">
@@ -32,7 +33,7 @@ const MakeAppointment = () => {
 							here', making it look like readable English. Many desktop
 							publishing packages and web page
 						</p>
-						<button className="btn btn-primary">Get Started</button>
+						<MainButton>Get Started</MainButton>
 					</div>
 				</div>
 			</div>

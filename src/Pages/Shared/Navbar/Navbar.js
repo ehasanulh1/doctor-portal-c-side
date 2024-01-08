@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../assets/Logo.png";
+import propic from "../../../assets/images/people1.png";
 
 const Navbar = () => {
 	const menuItems = (
@@ -48,7 +49,7 @@ const Navbar = () => {
                         </ul>
 					</div>
 					<Link to='/' className="max-w-[220px]">
-						<img alt="Tailwind CSS Navbar component" src={logo} />
+						<img alt="Logo" src={logo} />
 					</Link>
 				</div>
 				<div className="navbar-center hidden lg:flex">
@@ -66,8 +67,8 @@ const Navbar = () => {
 						>
 							<div className="w-10 rounded-full">
 								<img
-									alt="Tailwind CSS Navbar component"
-									src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+									alt="Avater"
+									src={propic}
 								/>
 							</div>
 						</div>

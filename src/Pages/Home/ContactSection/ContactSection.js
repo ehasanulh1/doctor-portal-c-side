@@ -1,5 +1,6 @@
 import React from "react";
 import bgImage from "../../../assets/images/appointment.png";
+import MainButton from "../../Shared/Button/MainButton";
 
 const ContactSection = () => {
 	return (
@@ -27,7 +28,7 @@ const ContactSection = () => {
 							placeholder="Your message"
 						></textarea>
 						<div className="flex justify-center">
-							<button className="btn btn-primary">Submit</button>
+							<MainButton>Submit</MainButton>
 						</div>
 					</form>
 				</div>

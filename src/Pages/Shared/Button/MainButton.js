@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const MainButton = () => {
-    return (
-        <button className="btn btn-primary">Get Started</button>
-    );
+const MainButton = ({ children }) => {
+	return (
+		<button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white uppercase">
+			{children}
+		</button>
+	);
 };
 
 export default MainButton;
