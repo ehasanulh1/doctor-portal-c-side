@@ -4,13 +4,11 @@ import treatment from "../../../assets/images/treatment.png";
 const Treatment = () => {
 	return (
 		<div className="hero mt-36">
-			<div className="hero-content flex-col lg:flex-row lg:w-4/5 justify-center p-0">
-				<img
-					src={treatment}
-					alt="treatment"
-					className="max-w-sm rounded-lg"
-				/>
-				<div className="lg:ms-24">
+			<div className="hero-content grid gap-24 grid-cols-1 lg:grid-cols-2">
+				<div className="flex md:justify-center lg:justify-end">
+					<img src={treatment} alt="treatment" className="lg:max-w-sm rounded-lg" />
+				</div>
+				<div className="lg:w-[480px]">
 					<h1 className="text-5xl font-bold ">
 						Exceptional Dental Care, on Your Terms
 					</h1>
@@ -22,7 +20,7 @@ const Treatment = () => {
 						here', making it look like readable English. Many desktop publishing
 						packages and web page
 					</p>
-					<button className="btn btn-primary">Get Started</button>
+					<button className="btn btn-primary text-white">Get Started</button>
 				</div>
 			</div>
 		</div>
